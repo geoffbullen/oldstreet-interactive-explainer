@@ -1,0 +1,89 @@
+<svg version="1.1"
+             xmlns="http://www.w3.org/2000/svg"
+             preserveAspectRatio="xMidYMid meet"
+             viewBox="90 70 460 450"
+             width="40"
+             height="40">
+            <g>
+                <g>
+                    <g>
+                        <path d="M130 400L220 400L220 500L130 500L130 400Z"
+                              opacity="1"
+                              fill="#47bc8a"
+                              fill-opacity="1"></path>
+                    </g>
+                    <g>
+                        <path d="M130 300L220 300L220 400L130 400L130 300Z"
+                              opacity="1"
+                              fill="#f78b04"
+                              fill-opacity="1"></path>
+                    </g>
+                    <g>
+                        <path d="M430 370L520 370L520 410L430 410L430 370Z"
+                              opacity="1"
+                              fill="#403194"
+                              fill-opacity="1"></path>
+                    </g>
+                    <g>
+                        <path d="M130 199.68L220 199.68L220 300L130 300L130 199.68Z"
+                              opacity="1"
+                              fill="#403194"
+                              fill-opacity="1"></path>
+                    </g>
+                    <g>
+                        <path d="M230 365.53L320 365.53L320 500L230 500L230 365.53Z"
+                              opacity="1"
+                              fill="#47bc8a"
+                              fill-opacity="1"></path>
+                    </g>
+                    <g>
+                        <path d="M230 270L320 270L320 365.91L230 365.91L230 270Z"
+                              opacity="1"
+                              fill="#f78b04"
+                              fill-opacity="1"></path>
+                    </g>
+                    <g>
+                        <path d="M230 100L320 100L320 271.45L230 271.45L230 100Z"
+                              opacity="1"
+                              fill="#403194"
+                              fill-opacity="1"></path>
+                    </g>
+                    <g>
+                        <path d="M330 380L420 380L420 500L330 500L330 380Z"
+                              opacity="1"
+                              fill="#47bc8a"
+                              fill-opacity="1"></path>
+                    </g>
+                    <g>
+                        <path d="M330 320L420 320L420 380L330 380L330 320Z"
+                              opacity="1"
+                              fill="#f78b04"
+                              fill-opacity="1"></path>
+                    </g>
+                    <g>
+                        <path d="M330 230L420 230L420 320L330 320L330 230Z"
+                              opacity="1"
+                              fill="#403194"
+                              fill-opacity="1"></path>
+                    </g>
+                    <g>
+                        <path d="M430 440L520 440L520 500L430 500L430 440Z"
+                              opacity="1"
+                              fill="#47bc8a"
+                              fill-opacity="1"></path>
+                    </g>
+                    <g>
+                        <path d="M430 410L520 410L520 440L430 440L430 410Z"
+                              opacity="1"
+                              fill="#f78b04"
+                              fill-opacity="1"></path>
+                    </g>
+                    <g>
+                        <path d="M531.36 482.2C536.13 482.2 540 486.06 540 490.84C540 492.67 540 489.53 540 491.36C540 496.13 536.13 500 531.36 500C447.09 500 202.91 500 118.64 500C113.87 500 110 496.13 110 491.36C110 489.53 110 492.67 110 490.84C110 486.06 113.87 482.2 118.64 482.2C202.91 482.2 447.09 482.2 531.36 482.2Z"
+                              opacity="1"
+                              fill="#d9d9d9"
+                              fill-opacity="1"></path>
+                    </g>
+                </g>
+            </g>
+        </svg>

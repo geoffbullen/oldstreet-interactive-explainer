@@ -1,0 +1,27 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet" viewBox="90 70 460 450" width="40" height="40">
+    <g>
+        <g>
+            <g>
+                <path d="M130 200L190 200L190 500L130 500L130 200Z" opacity="1" fill="#47bc8a" fill-opacity="1"></path>
+            </g>
+            <g>
+                <path d="M190 100L250 100L250 500L190 500L190 100Z" opacity="1" fill="#f78b04" fill-opacity="1"></path>
+            </g>
+            <g>
+                <path d="M250 300L310 300L310 500L250 500L250 300Z" opacity="1" fill="#403194" fill-opacity="1"></path>
+            </g>
+            <g>
+                <path d="M340 380L400 380L400 500L340 500L340 380Z" opacity="1" fill="#47bc8a" fill-opacity="1"></path>
+            </g>
+            <g>
+                <path d="M400 320L460 320L460 500L400 500L400 320Z" opacity="1" fill="#f78b04" fill-opacity="1"></path>
+            </g>
+            <g>
+                <path d="M460 240L520 240L520 500L460 500L460 240Z" opacity="1" fill="#403194" fill-opacity="1"></path>
+            </g>
+            <g>
+                <path d="M531.36 482.2C536.13 482.2 540 486.06 540 490.84C540 492.67 540 489.53 540 491.36C540 496.13 536.13 500 531.36 500C447.09 500 202.91 500 118.64 500C113.87 500 110 496.13 110 491.36C110 489.53 110 492.67 110 490.84C110 486.06 113.87 482.2 118.64 482.2C202.91 482.2 447.09 482.2 531.36 482.2Z" opacity="1" fill="#d9d9d9" fill-opacity="1"></path>
+            </g>
+        </g>
+    </g>
+</svg>

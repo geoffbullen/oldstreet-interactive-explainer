@@ -1,0 +1,23 @@
+<svg version="1.1"
+             xmlns="http://www.w3.org/2000/svg"
+             preserveAspectRatio="xMidYMid meet"
+             viewBox="90 70 460 450"
+             width="40"
+             height="40">
+            <g>
+                <g>
+                    <path d="M527 241.01L437 128.06L327 364.33L227 257.99L121.52 490"
+                          opacity="1"
+                          fill-opacity="0"
+                          stroke="#403194"
+                          stroke-width="30"
+                          stroke-opacity="1"></path>
+                </g>
+                <g>
+                    <path d="M541.1 482.2C546.01 482.2 550 486.18 550 491.1C550 492.88 550 489.32 550 491.1C550 496.01 546.01 500 541.1 500C452.88 500 197.12 500 108.9 500C103.99 500 100 496.01 100 491.1C100 489.32 100 492.88 100 491.1C100 486.18 103.99 482.2 108.9 482.2C197.12 482.2 452.88 482.2 541.1 482.2Z"
+                          opacity="1"
+                          fill="#d9d9d9"
+                          fill-opacity="1"></path>
+                </g>
+            </g>
+        </svg>

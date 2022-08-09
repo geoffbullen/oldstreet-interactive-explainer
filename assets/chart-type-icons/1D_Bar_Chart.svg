@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+             preserveAspectRatio="xMidYMid meet"
+             viewBox="90 70 460 450"
+             width="40"
+             height="40">
+            <g>
+                <g>
+                    <g>
+                        <path opacity="1"
+                              fill="#47bc8a"
+                              fill-opacity="1"
+                              d="M130 200L220 200L220 500L130 500L130 200Z"></path>
+                    </g>
+                    <g>
+                        <path opacity="1"
+                              fill="#f78b04"
+                              fill-opacity="1"
+                              d="M230 100L320 100L320 500L230 500L230 100Z"></path>
+                    </g>
+                    <g>
+                        <path opacity="1"
+                              fill="#403194"
+                              fill-opacity="1"
+                              d="M330 300L420 300L420 500L330 500L330 300Z"></path>
+                    </g>
+                    <g>
+                        <path opacity="1"
+                              fill="#cd4525"
+                              fill-opacity="1"
+                              d="M430 400L520 400L520 500L430 500L430 400Z"></path>
+                    </g>
+                    <g>
+                        <path opacity="1"
+                              fill="#d9d9d9"
+                              fill-opacity="1"
+                              d="M531.36 482.2C536.13 482.2 540 486.06 540 490.84C540 492.67 540 489.53 540 491.36C540 496.13 536.13 500 531.36 500C447.09 500 202.91 500 118.64 500C113.87 500 110 496.13 110 491.36C110 489.53 110 492.67 110 490.84C110 486.06 113.87 482.2 118.64 482.2C202.91 482.2 447.09 482.2 531.36 482.2Z">
+                        </path>
+                    </g>
+                </g>
+            </g>
+        </svg>
