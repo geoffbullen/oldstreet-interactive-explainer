@@ -30,7 +30,7 @@ class ShowcaseGroupList extends HTMLElement {
         const group = groups[g];
         console.log('render group with key: ' + g, group);
         let object = JSON.stringify(group);
-        const str = `<showcase-group-component data-object='${object}'></showcase-group-component>`;
+        const str = `<showcase-group-component data-group='${g}' data-object='${object}'></showcase-group-component>`;
         htmlStr += str;        
       }
       this.innerHTML = htmlStr;

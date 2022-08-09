@@ -1,20 +1,36 @@
 {
-    "agile" :{
-        "name":"Agile",
-        "examples":[
-            {"name":"Sprint Health dashboard","thumbnail":"./data/thumbnails/agile1.png"},
-            {"name":"Agile Release dashboard","thumbnail":"./data/thumbnails/agile1.png"},
-            {"name":"SAFe Progress dashboard","thumbnail":"./data/thumbnails/agile1.png"}
+    "agile": {
+        "name": "Agile",
+        "examples": [
+            {
+                "name": "Sprint Health dashboard",
+                "thumbnail": "./data/thumbnails/agile1.png",
+                "dashboardUrl": "https://custom-charts-confluence.oss-playground.com/jira/secure/Dashboard.jspa"
+            },
+            {
+                "name": "Agile Release dashboard",
+                "thumbnail": "./data/thumbnails/agile1.png"
+            },
+            {
+                "name": "SAFe Progress dashboard",
+                "thumbnail": "./data/thumbnails/agile1.png"
+            }
         ]
     },
-    "service-management" :{
-        "name":"Service Management",
-        "examples":[
-            {"name":"Service management dashboard","thumbnail":"./data/thumbnails/agile1.png"},
-            {"name":"Service dashboard","thumbnail":"./data/thumbnails/agile1.png"}
+    "service-management": {
+        "name": "Service Management",
+        "examples": [
+            {
+                "name": "Service management dashboard",
+                "thumbnail": "./data/thumbnails/agile1.png"
+            },
+            {
+                "name": "Service dashboard",
+                "thumbnail": "./data/thumbnails/agile1.png"
+            }
         ]
     },
-    "marketing" :{
-        "name":"Marketing"
+    "marketing": {
+        "name": "Marketing"
     }
 }
