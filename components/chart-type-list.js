@@ -22,7 +22,6 @@ class ChartTypeList extends HTMLElement {
 
     connectedCallback() {
         this.data.then((charts) => {
-            console.log({ charts });
             let htmlStr = '';
             charts.forEach(c => {
                 let object = JSON.stringify(c);
@@ -32,7 +31,5 @@ class ChartTypeList extends HTMLElement {
             this.innerHTML = htmlStr;
         });
     }
-
-
 }
 customElements.define('chart-type-list-component', ChartTypeList);

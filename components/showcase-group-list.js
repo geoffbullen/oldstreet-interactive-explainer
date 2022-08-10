@@ -28,7 +28,7 @@ class ShowcaseGroupList extends HTMLElement {
       let htmlStr = '';
       for (const g in groups) {
         const group = groups[g];
-        // console.log('render group with key: ' + g, group);
+        console.log('render group with key: ' + g, group);
         let object = JSON.stringify(group);
         const str = `<showcase-group-component data-group='${g}' data-object='${object}'></showcase-group-component>`;
         htmlStr += str;        
