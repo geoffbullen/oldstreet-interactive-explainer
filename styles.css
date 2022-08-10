@@ -105,3 +105,40 @@ h2 {
   text-decoration: none;
 }
 
+
+/* .media-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #FFF1DB;
+  width: 500px;
+  margin-left: auto;
+  height: 300px;
+} */
+
+.media-container{
+  background-color: #FFF1DB;
+  width: 660px;
+  height: 440px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.iframe-container {
+  overflow: hidden;
+  padding-top: 56.25%;
+  position: relative;
+
+  width: 600px;
+  height: 400px;
+}
+
+.iframe-container iframe {
+   border: 0;
+   height: 100%;
+   left: 0;
+   position: absolute;
+   top: 0;
+   width: 100%;
+}

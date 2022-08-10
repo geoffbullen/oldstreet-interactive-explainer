@@ -12,6 +12,7 @@ class Footer extends HTMLElement {
                 background-image: url(assets/footer_placeholder.png);
                 background-size: cover;
                 max-width: 1000px;
+                margin-inline: auto;
             }
           </style>
           <footer>

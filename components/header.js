@@ -11,19 +11,23 @@ class Header extends HTMLElement {
                 position: relative;
                 min-height: 80px;
                 width: 100%;
+                display: flex;
+                justify-content: center;
 
             }
 
             .header-bottom-border-image{
-                position: absolute;
-                bottom: 0;
-                left:0;
             }
 
             .header-nav-image{
-                height: 49px;
-                margin-left: 50px !important;
+                max-height: 49px;
                 margin-top: 10px;
+            }
+            .header-wrap > a{
+                display: flex;
+                justify-content: center;
+                flex-direction: column;
+                align-items: center;
             }
           </style>
           <header>
