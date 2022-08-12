@@ -13,9 +13,9 @@
                 "name": "Created vs Resolved summary",
                 "url": "https://www.google.com"
             }
-        ]
-    }
-    ,
+        ],
+        "learnMoreUrl": "https://ossapps.atlassian.net/wiki/spaces/CCFJ/pages/451707148/Pie+Chart"
+    },
     {
         "name": "Line Chart",
         "exampleUrl": "https://custom-charts-confluence.oss-playground.com/jira/rest/scriptrunner/latest/custom/customChartsJiraEditor?dashboardId=10300&dashboardItemId=10404",
@@ -30,7 +30,8 @@
                 "name": "Created vs Resolved summary",
                 "url": "https://www.google.com"
             }
-        ]
+        ],
+        "learnMoreUrl": "https://ossapps.atlassian.net/wiki/spaces/CCFJ/pages/963182593/1D+Line+Chart"
     },
     {
         "name": "2D Stacked Bar Chart",
@@ -46,7 +47,8 @@
                 "name": "Created vs Resolved summary",
                 "url": "https://www.google.com"
             }
-        ]
+        ],
+        "learnMoreUrl": "https://ossapps.atlassian.net/wiki/spaces/CCFJ/pages/803406301/2D+Stacked+Bar+Chart"
     },
     {
         "name": "2D Line Chart",
@@ -62,7 +64,8 @@
                 "name": "Created vs Resolved summary",
                 "url": "https://www.google.com"
             }
-        ]
+        ],
+        "learnMoreUrl": "https://ossapps.atlassian.net/wiki/spaces/CCFJ/pages/963182710/2D+Line+Chart"
     },
     {
         "name": "Funnel Chart",
@@ -78,7 +81,8 @@
                 "name": "Created vs Resolved summary",
                 "url": "https://www.google.com"
             }
-        ]
+        ],
+        "learnMoreUrl": "https://ossapps.atlassian.net/wiki/spaces/CCFJ/pages/448070138/Funnel+Chart"
     },
     {
         "name": "1D Bar Chart",
@@ -94,7 +98,8 @@
                 "name": "Created vs Resolved summary",
                 "url": "https://www.google.com"
             }
-        ]
+        ],
+        "learnMoreUrl": "https://ossapps.atlassian.net/wiki/spaces/CCFJ/pages/448070248/1D+Bar+Chart"
     },
     {
         "name": "2D table",
@@ -110,7 +115,8 @@
                 "name": "Created vs Resolved summary",
                 "url": "https://www.google.com"
             }
-        ]
+        ],
+        "learnMoreUrl": "https://ossapps.atlassian.net/wiki/spaces/CCFJ/pages/644612225/2D+Table+Chart"
     },
     {
         "name": "1D table",
@@ -126,6 +132,7 @@
                 "name": "Created vs Resolved summary",
                 "url": "https://www.google.com"
             }
-        ]
+        ],
+        "learnMoreUrl": "https://ossapps.atlassian.net/wiki/spaces/CCFJ/pages/451740092/1D+Table+Chart"
     }
 ]

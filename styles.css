@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700;800&display=swap');
 
 @font-face {
     font-family: "AvenirMedium";
@@ -176,6 +176,33 @@ button.pseudo-tab-active {
 .chart-type-details {
     width: 40vw;
     max-width: 400px;
+}
+
+.chart-type-details>h3 {
+    font-family: Inter, sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+.chart-type-details>p {
+    color: #3D445A;
+    margin-bottom: 16px
+}
+
+.chart-type-details-p-b {
+    color: black !important;
+    font-weight: 600;
+}
+
+.chart-type-details-ex-link {
+    color: #3D445A;
+    text-decoration: underline;
+}
+
+.chart-type-details-learnmore>a {
+    color: #192B80;
+    text-decoration: underline;
 }
 
 .iframe-container {
