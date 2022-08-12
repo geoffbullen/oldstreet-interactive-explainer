@@ -1,13 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;600&display=swap');
+
+@font-face {
+    font-family: "AvenirMedium";
+    src: url("assets/fonts/Avenir-Medium.ttf");
+}
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
-}
-
-@font-face {
-    font-family: "AvenirMedium";
-    src: url("assets/fonts/Avenir-Medium.ttf");
 }
 
 html,
@@ -124,6 +126,26 @@ h2 {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.pseudo-tabs-container {
+    display: flex;
+    width: 100%;
+    border-bottom: 1px solid #E3E3E5
+}
+
+button.pseudo-tab-button {
+    color: #898989;
+    font-family: Inter, sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 20px 0px;
+    margin: 0px 20px 0px 4px;
+}
+
+button.pseudo-tab-active {
+    color: #192B80;
+    border-bottom: 2px solid #E53041;
 }
 
 .iframe-container {
