@@ -133,8 +133,9 @@ h2 {
     left: 0;
     position: absolute;
     top: 0;
-    width: 522px;
+    width: 1047px;
     margin-top: -270px;
+    background-color: white;
 }
 
 .feature-media {

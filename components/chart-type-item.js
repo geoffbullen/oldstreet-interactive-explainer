@@ -16,8 +16,8 @@ class ChartTypeItem extends HTMLElement {
              </div>
              <div class="feature-col">
                <div class="media-container" style="background-color:${obj.backgroundColor}">
-                    <div class="iframe-container">
-                        <iframe src="${obj.exampleUrl}" loading="lazy" scrolling="no" frameborder="0"></iframe>
+                    <div id="iframe" class="iframe-container">
+                        <iframe id="iframe${obj.index}" scrolling="no" loading="lazy" src="${obj.exampleUrl}" style="display:none"></iframe>
                     </div>
                 </div>
              </div>
@@ -27,10 +27,12 @@ class ChartTypeItem extends HTMLElement {
 
     getObject() {
         const objectStr = this.getAttribute("data-object");
+        const index = this.getAttribute("data-i");
         let object;
         try {object = JSON.parse(objectStr)}
         catch(e){/*swallow*/}
         if(!object) return {};
+        object.index = index;
         return object;
       } 
 }
