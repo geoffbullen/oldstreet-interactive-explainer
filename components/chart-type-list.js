@@ -5,7 +5,7 @@ class ChartTypeList extends HTMLElement {
     }
 
     get data() {
-        return fetch('data/features-data.json')
+        return fetch('data/chart-types-data.json')
             .then(response => {
                 if (!response.ok) {
                     throw new Error("HTTP error " + response.status);

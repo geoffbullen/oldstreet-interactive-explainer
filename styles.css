@@ -4,26 +4,16 @@
   box-sizing: border-box;
   text-decoration: none;
 }
-
 html,
 body {
   height: 100%;
-}
-
-body {
+  font-family: Inter, sans-serif;
+  font-style: normal;
   color: #333;
-  font-family: sans-serif;
   display: flex;
   flex-direction: column;
 }
-
-main {
-  /* flex: 1 0 auto; */
-}
-
 .header {
-  font-family: "Inter";
-  font-style: normal;
   font-weight: 600;
   color: #000000;
   padding-bottom: 16px;
@@ -75,6 +65,10 @@ h2 {
 
 .showcase-card > img {
   width: 300px;
+  height: 220px;
+  object-fit: scale-down;
+  object-position: 0px 10%;
+
 }
 
 .thumbnail-name {
@@ -104,18 +98,6 @@ h2 {
   color: #000000;
   text-decoration: none;
 }
-
-
-/* .media-container{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #FFF1DB;
-  width: 500px;
-  margin-left: auto;
-  height: 300px;
-} */
-
 .media-container{
   background-color: #FFF1DB;
   width: 660px;
@@ -129,7 +111,6 @@ h2 {
   overflow: hidden;
   padding-top: 56.25%;
   position: relative;
-
   width: 600px;
   height: 400px;
 }

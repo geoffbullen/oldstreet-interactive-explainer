@@ -1,0 +1,32 @@
+[
+    {
+        "name": "Pie chart",
+        "exampleUrl":"/display/CCD/Pie+chart?os_username=admin&os_password=admin",
+        "description": "Use a pie chart for categorical data with more than 5 categories",
+        "backgroundColor" : "#EFF3FF",
+        "exampleLinks": [
+            { "name": "RAG", "url": "https://www.google.com" },
+            { "name": "Created vs Resolved summary", "url": "https://www.google.com" }
+        ]
+    },
+    {
+        "name": "2D grouped bar chart",
+        "exampleUrl":"http://localhost:1234/display/CCD/Pie+chart?os_username=admin&os_password=admin",
+        "description": "Use a pie chart for categorical data with more than 5 categories",
+        "backgroundColor" : "#F5E0D5",
+        "exampleLinks": [
+            { "name": "RAG", "url": "https://www.google.com" },
+            { "name": "Created vs Resolved summary", "url": "https://www.google.com" }
+        ]
+    },
+    {
+        "name": "1D bar chart",
+        "exampleUrl":"/display/CCD/1D+bar+chart?os_username=admin&os_password=admin",
+        "description": "Use a pie chart for categorical data with more than 5 categories",
+        "backgroundColor" : "#DEF2E6",
+        "exampleLinks": [
+            { "name": "RAG", "url": "https://www.google.com" },
+            { "name": "Created vs Resolved summary", "url": "https://www.google.com" }
+        ]
+    }
+]

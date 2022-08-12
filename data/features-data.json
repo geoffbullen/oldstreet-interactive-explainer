@@ -1,29 +1,8 @@
 [
     {
-        "name": "Pie chart",
+        "name": "ABC",
+        "videoUrl":"",
         "description": "Use a pie chart for categorical data with more than 5 categories",
-        "backgroundColor" : "#EFF3FF",
-        "exampleLinks": [
-            { "name": "RAG", "url": "https://www.google.com" },
-            { "name": "Created vs Resolved summary", "url": "https://www.google.com" }
-        ]
-    },
-    {
-        "name": "2D grouped bar chart",
-        "description": "Use a pie chart for categorical data with more than 5 categories",
-        "backgroundColor" : "#F5E0D5",
-        "exampleLinks": [
-            { "name": "RAG", "url": "https://www.google.com" },
-            { "name": "Created vs Resolved summary", "url": "https://www.google.com" }
-        ]
-    },
-    {
-        "name": "1D bar chart",
-        "description": "Use a pie chart for categorical data with more than 5 categories",
-        "backgroundColor" : "#DEF2E6",
-        "exampleLinks": [
-            { "name": "RAG", "url": "https://www.google.com" },
-            { "name": "Created vs Resolved summary", "url": "https://www.google.com" }
-        ]
+        "backgroundColor" : "#EFF3FF"
     }
 ]

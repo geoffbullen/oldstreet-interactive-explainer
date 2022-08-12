@@ -4,7 +4,7 @@
         "examples": [
             {
                 "name": "Sprint Health dashboard",
-                "thumbnail": "./data/showcase-thumbnails/agile1.png",
+                "thumbnail": "./data/showcase-thumbnails/example7.webp",
                 "dashboardUrl": "jira/secure/Dashboard.jspa",
                 "featuresUsed": [
                     "Pie Chart",
@@ -21,12 +21,12 @@
             },
             {
                 "name": "Agile Release dashboard",
-                "thumbnail": "./data/showcase-thumbnails/agile1.png",
+                "thumbnail": "./data/showcase-thumbnails/example1.webp",
                 "dashboardUrl": "jira/secure/Dashboard.jspa"
             },
             {
                 "name": "SAFe Progress dashboard",
-                "thumbnail": "./data/showcase-thumbnails/agile1.png",
+                "thumbnail": "./data/showcase-thumbnails/example2.webp",
                 "dashboardUrl": "jira/secure/Dashboard.jspa"
             }
         ]
@@ -36,12 +36,12 @@
         "examples": [
             {
                 "name": "Service management dashboard",
-                "thumbnail": "./data/showcase-thumbnails/agile1.png",
+                "thumbnail": "./data/showcase-thumbnails/example3.webp",
                 "dashboardUrl": "jira/secure/Dashboard.jspa"
             },
             {
                 "name": "Service dashboard",
-                "thumbnail": "./data/showcase-thumbnails/agile1.png",
+                "thumbnail": "./data/showcase-thumbnails/example7.webp",
                 "dashboardUrl": "jira/secure/Dashboard.jspa"
             }
         ]
@@ -51,12 +51,12 @@
         "examples": [
             {
                 "name": "Marketing daily dashboard",
-                "thumbnail": "./data/showcase-thumbnails/agile1.png",
+                "thumbnail": "./data/showcase-thumbnails/example5.webp",
                 "dashboardUrl": "jira/secure/Dashboard.jspa"
             },
             {
                 "name": "Marketing performance",
-                "thumbnail": "./data/showcase-thumbnails/agile1.png",
+                "thumbnail": "./data/showcase-thumbnails/example6.webp",
                 "dashboardUrl": "jira/secure/Dashboard.jspa"
             }
         ]

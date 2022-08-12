@@ -4,13 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link href="styles.css" rel="stylesheet" type="text/css" />
+    <link href="styles.css"  rel="stylesheet"  type="text/css" />
     <script src="components/header.js" type="text/javascript" defer></script>
     <script src="components/footer.js" type="text/javascript" defer></script>
     <script src="components/call-to-action.js" type="text/javascript" defer></script>
-    <script src="components/showcase-group.js" type="text/javascript" defer></script>
-    <script src="components/showcase-group-list.js" type="text/javascript" defer></script>
-    <script src="components/showcase-group-item.js" type="text/javascript" defer></script>
 </head>
 <body>
     <header-component></header-component>
@@ -18,11 +15,16 @@
         <div class="content">
             <div class="heading">
                 <h4 class="header header-name">Custom Charts for Jira</h4>
-                <h1 class="header header-title">Dashboard showcase</h1>
-                <p class="header header-description">Get inspired by these real world examples of Custom Charts.</p>
+                <h1 class="header header-title">Simple Editor</h1>
+                <p class="header header-description">The simplest, most powerful chart editing experience for Jira.</p>
             </div>
-            <div class="dashboard-groups-container">
-                <showcase-group-list-component></showcase-group-list-component>
+            <div class="chart-container">
+                <iframe src="https://custom-charts-confluence.oss-playground.com/jira/rest/scriptrunner/latest/custom/customChartsJiraEditor?dashboardId=10300&dashboardItemId=10401"
+                        class="scaled-iframe"
+                        scrolling="no"
+                        style="width:100%;height:2400px"
+                        frameborder="0">
+                </iframe>
             </div>
         </div>
         <call-to-action-component></call-to-action-component>
