@@ -65,7 +65,7 @@ class CallToAction extends HTMLElement {
             <p class="cta-p">Custom charts for Jira</p>
             <h1 class="cta-h1">Get charting.</h1>
             <div class="btn-group">
-                <button onclick="window.location.href = 'https://www.oldstreetsolutions.com/custom-charts-for-jira-and-confluence'">Browse features</button>
+                <button onclick="window.location.href = '/features.html'">Browse features</button>
                 <button class="btn-primary" onclick="window.location.href = 'https://marketplace.atlassian.com/apps/1220925/custom-charts-for-jira-reports?hosting=cloud&tab=overview'">
                     <svg class="btn-icon" width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M7.82944 11.0688C7.46867 10.6719 6.92755 10.7079 6.67502 11.1769L0.8306 22.9017C0.614143 23.3707 0.938899 23.9119 1.44397 23.9119H9.59714C9.84967 23.9119 10.1022 23.7676 10.2104 23.515C11.9781 19.8713 10.8959 14.3517 7.82944 11.0688Z" fill="url(#paint0_linear_20_578)"/>

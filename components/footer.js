@@ -61,14 +61,16 @@ class Footer extends HTMLElement {
                 max-width:1350px;
                 margin: 0 auto;
                 display:flex;
+                padding: 0 20px;
             }
             .footer-element {
-                padding-right: 40px;
+                padding-right: 35px;
                 padding-bottom: 20px;
             }
             .footer-element > h3{
-                font-family: Bebas Neue;
+                font-family: Bebas Neue, Inter, san-serif;
                 font-size: 25px;
+                font-weight:bold;
                 text-transform: uppercase;
                 margin-bottom: 30px;
             }
@@ -96,9 +98,9 @@ class Footer extends HTMLElement {
             }
             .stack-horizontal > ul {
                 display:flex;
-                flex-dirction:row;
+                flex-direction:row;
                 flex-wrap: wrap;
-                gap: 18px;
+                gap: 18px 12px;
             }
             .stack-horizontal > ul > li {
                 background-color: #f8323b!important;
@@ -117,6 +119,8 @@ class Footer extends HTMLElement {
             }
             .stack,
             .footer-element {
+                display:flex;
+                flex-direction:column;
                 flex:1;
             }
             .footer-small-text,
@@ -125,6 +129,7 @@ class Footer extends HTMLElement {
                 color:black;
                 font-size:14px !important;
                 margin-bottom: 21px;
+                overflow-wrap:anywhere;
             }
           </style>
           <footer>
@@ -137,7 +142,7 @@ class Footer extends HTMLElement {
                     <div class="footer-element">
                         <h3>Get in touch</h3>
                         <p class='footer-small-text'>
-                            <span><img width='10' height='15' src='https://www.oldstreetsolutions.com/wp-content/uploads/2022/03/Footer-icons_Geotag.svg'/></span>
+                            <span><img width='10' height='12' src='https://www.oldstreetsolutions.com/wp-content/uploads/2022/03/Footer-icons_Geotag.svg'/></span>
                             128 City Road, London, EC1V 2NX
                         </p>
                         <p class='footer-small-text'>

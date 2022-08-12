@@ -46,6 +46,7 @@ body {
     font-size: 17px;
     line-height: 171%;
     margin-bottom: 50px;
+    color: #3D445A;
 }
 
 .content {
@@ -62,8 +63,18 @@ h2 {
     margin-bottom: 27px;
 }
 
+.showcase-example-group-container {
+    margin-bottom: 40px;
+}
+
 .showcase-example-group {
     display: flex;
+    flex-wrap: wrap;
+}
+
+.showcase-example-group>a {
+    margin-bottom: 60px;
+    ;
 }
 
 .showcase-card {

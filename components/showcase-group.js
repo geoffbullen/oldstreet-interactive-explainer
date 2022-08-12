@@ -1,33 +1,33 @@
 class ShowcaseGroup extends HTMLElement {
 
-  constructor() {
-    super();
-  }
-
-
-  get group() {
-    const group = this.getAttribute("data-group");
-    return group;
-  }
-
-  get object() {
-    let obj = {};
-    const item = this.getAttribute("data-object");
-    try {
-      obj = JSON.parse(item);
-      return obj;
+    constructor() {
+        super();
     }
-    catch (e) {
-      console.error(e)
-    }
-  }
 
-  get exampleListHtml() {
-    const examples = this.object.examples;
-    console.log(this.object)
-    let htmlStr = '<div class="showcase-example-group">';
-    if (examples) examples.forEach(e => {
-      htmlStr += `
+
+    get group() {
+        const group = this.getAttribute("data-group");
+        return group;
+    }
+
+    get object() {
+        let obj = {};
+        const item = this.getAttribute("data-object");
+        try {
+            obj = JSON.parse(item);
+            return obj;
+        }
+        catch (e) {
+            console.error(e)
+        }
+    }
+
+    get exampleListHtml() {
+        const examples = this.object.examples;
+        console.log(this.object)
+        let htmlStr = '<div class="showcase-example-group">';
+        if (examples) examples.forEach(e => {
+            htmlStr += `
       <a href="dashboard-example-page.html?group=${this.group}&name=${e.name}">
           <div class="showcase-card">
             <img src="${e.thumbnail}" />
@@ -38,22 +38,22 @@ class ShowcaseGroup extends HTMLElement {
           </div>
       </a>
       `
-    })
-    return htmlStr += '</div>'
+        })
+        return htmlStr += '</div>'
 
-  }
+    }
 
 
-  connectedCallback() {
-    const obj = this.object;
-    // console.log('ShowcaseGroup', this.exampleListHtml);
-    this.innerHTML = `
-          <div>
+    connectedCallback() {
+        const obj = this.object;
+        // console.log('ShowcaseGroup', this.exampleListHtml);
+        this.innerHTML = `
+          <div class='showcase-example-group-container'>
             <h2>${obj.name}</h2>
             ${this.exampleListHtml}
           </div>
         `;
-  }
+    }
 
 }
 customElements.define('showcase-group-component', ShowcaseGroup);
