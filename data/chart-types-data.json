@@ -14,7 +14,8 @@
                 "url": "https://www.google.com"
             }
         ]
-    },
+    }
+    ,
     {
         "name": "Line Chart",
         "exampleUrl": "https://custom-charts-confluence.oss-playground.com/jira/rest/scriptrunner/latest/custom/customChartsJiraEditor?dashboardId=10300&dashboardItemId=10404",
