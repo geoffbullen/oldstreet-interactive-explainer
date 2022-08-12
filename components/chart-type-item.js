@@ -29,9 +29,8 @@ class ChartTypeItem extends HTMLElement {
         const objectStr = this.getAttribute("data-object");
         let object;
         try {object = JSON.parse(objectStr)}
-        catch(e){/**/}
+        catch(e){/*swallow*/}
         if(!object) return {};
-        console.log({"CHART OBJECT":object})
         return object;
       } 
 }

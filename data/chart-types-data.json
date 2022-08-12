@@ -1,32 +1,130 @@
 [
     {
         "name": "Pie chart",
-        "exampleUrl":"/display/CCD/Pie+chart?os_username=admin&os_password=admin",
+        "exampleUrl": "https://custom-charts-confluence.oss-playground.com/jira/rest/scriptrunner/latest/custom/customChartsJiraEditor?dashboardId=10300&dashboardItemId=10401",
         "description": "Use a pie chart for categorical data with more than 5 categories",
-        "backgroundColor" : "#EFF3FF",
+        "backgroundColor": "#EFF3FF",
         "exampleLinks": [
-            { "name": "RAG", "url": "https://www.google.com" },
-            { "name": "Created vs Resolved summary", "url": "https://www.google.com" }
+            {
+                "name": "RAG",
+                "url": "https://www.google.com"
+            },
+            {
+                "name": "Created vs Resolved summary",
+                "url": "https://www.google.com"
+            }
         ]
     },
     {
-        "name": "2D grouped bar chart",
-        "exampleUrl":"http://localhost:1234/display/CCD/Pie+chart?os_username=admin&os_password=admin",
-        "description": "Use a pie chart for categorical data with more than 5 categories",
-        "backgroundColor" : "#F5E0D5",
+        "name": "Line Chart",
+        "exampleUrl": "https://custom-charts-confluence.oss-playground.com/jira/rest/scriptrunner/latest/custom/customChartsJiraEditor?dashboardId=10300&dashboardItemId=10404",
+        "description": "lorem ipsum blah blah blah",
+        "backgroundColor": "#DEF2E6",
         "exampleLinks": [
-            { "name": "RAG", "url": "https://www.google.com" },
-            { "name": "Created vs Resolved summary", "url": "https://www.google.com" }
+            {
+                "name": "RAG",
+                "url": "https://www.google.com"
+            },
+            {
+                "name": "Created vs Resolved summary",
+                "url": "https://www.google.com"
+            }
         ]
     },
     {
-        "name": "1D bar chart",
-        "exampleUrl":"/display/CCD/1D+bar+chart?os_username=admin&os_password=admin",
-        "description": "Use a pie chart for categorical data with more than 5 categories",
-        "backgroundColor" : "#DEF2E6",
+        "name": "2D Stacked Bar Chart",
+        "exampleUrl": "https://custom-charts-confluence.oss-playground.com/jira/rest/scriptrunner/latest/custom/customChartsJiraEditor?dashboardId=10300&dashboardItemId=10405",
+        "description": "lorem ipsum blah blah blah",
+        "backgroundColor": "#DEF2E6",
         "exampleLinks": [
-            { "name": "RAG", "url": "https://www.google.com" },
-            { "name": "Created vs Resolved summary", "url": "https://www.google.com" }
+            {
+                "name": "RAG",
+                "url": "https://www.google.com"
+            },
+            {
+                "name": "Created vs Resolved summary",
+                "url": "https://www.google.com"
+            }
+        ]
+    },
+    {
+        "name": "2D Line Chart",
+        "exampleUrl": "https://custom-charts-confluence.oss-playground.com/jira/rest/scriptrunner/latest/custom/customChartsJiraEditor?dashboardId=10300&dashboardItemId=10406",
+        "description": "lorem ipsum blah blah blah",
+        "backgroundColor": "#DEF2E6",
+        "exampleLinks": [
+            {
+                "name": "RAG",
+                "url": "https://www.google.com"
+            },
+            {
+                "name": "Created vs Resolved summary",
+                "url": "https://www.google.com"
+            }
+        ]
+    },
+    {
+        "name": "Funnel Chart",
+        "exampleUrl": "https://custom-charts-confluence.oss-playground.com/jira/rest/scriptrunner/latest/custom/customChartsJiraEditor?dashboardId=10300&dashboardItemId=10407",
+        "description": "lorem ipsum blah blah blah",
+        "backgroundColor": "#DEF2E6",
+        "exampleLinks": [
+            {
+                "name": "RAG",
+                "url": "https://www.google.com"
+            },
+            {
+                "name": "Created vs Resolved summary",
+                "url": "https://www.google.com"
+            }
+        ]
+    },
+    {
+        "name": "1D Bar Chart",
+        "exampleUrl": "https://custom-charts-confluence.oss-playground.com/jira/rest/scriptrunner/latest/custom/customChartsJiraEditor?dashboardId=10300&dashboardItemId=10408",
+        "description": "lorem ipsum blah blah blah",
+        "backgroundColor": "#DEF2E6",
+        "exampleLinks": [
+            {
+                "name": "RAG",
+                "url": "https://www.google.com"
+            },
+            {
+                "name": "Created vs Resolved summary",
+                "url": "https://www.google.com"
+            }
+        ]
+    },
+    {
+        "name": "2D table",
+        "exampleUrl": "https://custom-charts-confluence.oss-playground.com/jira/rest/scriptrunner/latest/custom/customChartsJiraEditor?dashboardId=10300&dashboardItemId=10402",
+        "description": "2D table",
+        "backgroundColor": "#F5E0D5",
+        "exampleLinks": [
+            {
+                "name": "RAG",
+                "url": "https://www.google.com"
+            },
+            {
+                "name": "Created vs Resolved summary",
+                "url": "https://www.google.com"
+            }
+        ]
+    },
+    {
+        "name": "1D table",
+        "exampleUrl": "https://custom-charts-confluence.oss-playground.com/jira/rest/scriptrunner/latest/custom/customChartsJiraEditor?dashboardId=10300&dashboardItemId=10403",
+        "description": "lorem ipsum blah blah blah",
+        "backgroundColor": "#DEF2E6",
+        "exampleLinks": [
+            {
+                "name": "RAG",
+                "url": "https://www.google.com"
+            },
+            {
+                "name": "Created vs Resolved summary",
+                "url": "https://www.google.com"
+            }
         ]
     }
 ]
