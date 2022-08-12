@@ -18,7 +18,7 @@ class PseudoTab extends HTMLElement {
             if (activeTab === tabName) {
                 return ''
             } else {
-                return `onclick="window.location.href=\'/${tabName}\'"`
+                return `onclick="window.location.href=\'${tabName}.html\'"`
             }
         }
 
