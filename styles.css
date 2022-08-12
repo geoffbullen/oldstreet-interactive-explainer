@@ -124,15 +124,17 @@ h2 {
     position: relative;
     width: 600px;
     height: 400px;
+    overflow: hidden;
 }
 
 .iframe-container iframe {
     border: 0;
-    height: 100%;
+    height: 531px;
     left: 0;
     position: absolute;
     top: 0;
-    width: 100%;
+    width: 522px;
+    margin-top: -270px;
 }
 
 .feature-media {
