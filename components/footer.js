@@ -5,7 +5,7 @@ class Footer extends HTMLElement {
     }
 
     get data() {
-        return fetch('data/footer-nav-links-data.json')
+        return fetch('components/footer-nav-links-data.json')
             .then(response => {
                 if (!response.ok) {
                     throw new Error("HTTP error " + response.status);

@@ -157,16 +157,6 @@ button.pseudo-tab-active {
     overflow: hidden;
 }
 
-.iframe-container iframe {
-    border: 0;
-    height: 531px;
-    left: 0;
-    position: absolute;
-    top: 0;
-    width: 1047px;
-    margin-top: -270px;
-    background-color: white;
-}
 
 .feature-media {
     background-repeat: no-repeat;
@@ -188,6 +178,31 @@ button.pseudo-tab-active {
     max-width: 400px;
 }
 
+.iframe-container {
+    overflow: hidden;
+    padding-top: 56.25%;
+    position: relative;
+    width: 600px;
+    height: 400px;
+    overflow: hidden;
+    margin-top: 25px;
+}
+
+.iframe-container iframe {
+    border: 0;
+    height: 531px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 1047px;
+    margin-top: -270px;
+    background-color: white;
+}
+
+.iframe-container.iframe0 {
+    margin-top: 130px;
+}
+
 #iframe1 {
     margin-top: -150px;
 }
@@ -197,12 +212,24 @@ button.pseudo-tab-active {
     height: 550px;
 }
 
+.iframe-container.iframe2 {
+    margin-top: 50px;
+}
+
 #iframe3 {
     margin-top: -184px;
 }
 
+.iframe-container.iframe3 {
+    margin-top: 50px;
+}
+
 #iframe4 {
     height: 466px;
+}
+
+.iframe-container.iframe4 {
+    margin-top: 200px;
 }
 
 #iframe5 {
@@ -211,4 +238,12 @@ button.pseudo-tab-active {
 
 #iframe6 {
     margin-top: -236px;
+}
+
+.iframe-container.iframe6 {
+    margin-top: 100px;
+}
+
+.iframe-container.iframe7 {
+    margin-top: 150px;
 }

@@ -16,7 +16,7 @@ class ChartTypeItem extends HTMLElement {
              </div>
              <div class="feature-col">
                <div class="media-container" style="background-color:${obj.backgroundColor}">
-                    <div class="iframe-container">
+                    <div class="iframe-container iframe${obj.index}">
                         <iframe id="iframe${obj.index}" scrolling="no" loading="lazy" src="${obj.exampleUrl}" style="display:none"></iframe>
                     </div>
                 </div>
