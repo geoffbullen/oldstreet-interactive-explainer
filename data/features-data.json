@@ -43,7 +43,7 @@
         "name": "Advanced JQL",
         "videoUrl": "assets/feature-assets/custom_jql.mov",
         "description": "Charting with no limits. Use custom JQL to chart anything you need to.",
-        "backgroundColor": "#F5E0D5"
+        "backgroundColor": "#EFF3FF"
     },
     {
         "name": "Dynamic filtering capabilities with Simple Search",
@@ -53,7 +53,7 @@
             "height": 435
         },
         "description": "allows dashboard viewers to dynamically filter Custom Charts reports based off of specific Jira fields and JQL",
-        "backgroundColor": "#F5E0D5"
+        "backgroundColor": "#F0E5F4"
     },
     {
         "name": "Stacked and grouped bar charts",
@@ -63,7 +63,7 @@
             "height": 435
         },
         "description": "Sometimes one dimension is not enough. Take your dashboard to the the next level with stacked and grouped charts.",
-        "backgroundColor": "#F5E0D5"
+        "backgroundColor": "#F2F3F6"
     }
 
 ]
