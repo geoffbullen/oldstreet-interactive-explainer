@@ -83,7 +83,6 @@ body {
 
 .content {
     margin: 50px auto;
-
     max-width: 1400px;
 }
 
@@ -387,6 +386,13 @@ button.pseudo-tab-active {
 .editor-help-nav-button-mini {
     margin: auto;
     color: white
+}
+
+.editor-help-minimized>h3 {
+    width: 220px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
 }
 
 .editor-help-nav-button-mini {

@@ -32,7 +32,7 @@ class ShowcaseExampleItem extends HTMLElement {
             .chart-container {
               position:relative;
               display:flex;
-              height: 1350px;
+              height: 1880px;
             }
             .chart-loading-container {
                 position:absolute;
@@ -49,16 +49,6 @@ class ShowcaseExampleItem extends HTMLElement {
                 width:100%;
                 height:100%;
             }
-            .loading {
-                margin:50px auto;
-                height:80px;
-                width:80px;
-                border-radius:50%;
-                border-left: 5px solid darkgrey;
-                border-right: 5px solid darkgrey;
-                border-top: 5px solid darkgrey;
-                animation: rotate 2s infinite;
-            }
             @keyframes rotate {
                 0% {
                   transform: rotate(0deg)
@@ -68,13 +58,7 @@ class ShowcaseExampleItem extends HTMLElement {
                 }
             }
             .scaled-iframe{
-              zoom: 0.75;
-              -moz-transform: scale(0.75);
-              -moz-transform-origin: 0 0;
-              -o-transform: scale(0.75);
-              -o-transform-origin: 0 0;
-              -webkit-transform: scale(0.75);
-              -webkit-transform-origin: 0 0;
+                top:300px !important
             }
           </style>
           <div>
@@ -88,13 +72,18 @@ class ShowcaseExampleItem extends HTMLElement {
             </a>
             <div class="chart-container">
                 <div id='loading-spinner'  class="chart-loading-container">
-                    <div class='loading'></div>
+                    <lottie-player src="assets/Custom-Charts-Loader.json"
+                        background="transparent"
+                        speed="1"
+                        style="width: 100px; height: 100px; margin:50px auto;"
+                        loop
+                        autoplay></lottie-player>
                 </div>
                 <div class='iframe-container'>
                     <iframe src="https://custom-charts-confluence.oss-playground.com/${params.dashboardUrl}"
                         onload="${await hideSpinner()}"
                         onerror="${await hideSpinner()}"
-                        class="editor-iframe"
+                        class="scaled-iframe"
                         scrolling="no"
                         style="width:100%;height:2400px"
                         frameborder="0">
@@ -167,3 +156,8 @@ class ShowcaseExampleItem extends HTMLElement {
 
 }
 customElements.define('showcase-example-item-component', ShowcaseExampleItem);
+
+
+/**
+ * 
+ */
