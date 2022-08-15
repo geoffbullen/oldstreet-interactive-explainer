@@ -94,7 +94,7 @@ class ShowcaseExampleItem extends HTMLElement {
                     <iframe src="https://custom-charts-confluence.oss-playground.com/${params.dashboardUrl}"
                         onload="${await hideSpinner()}"
                         onerror="${await hideSpinner()}"
-                        class="scaled-iframe"
+                        class="editor-iframe"
                         scrolling="no"
                         style="width:100%;height:2400px"
                         frameborder="0">

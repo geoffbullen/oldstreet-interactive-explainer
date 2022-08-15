@@ -29,7 +29,7 @@ class PseudoTab extends HTMLElement {
                 <button class="pseudo-tab-button ${isActive('features')}"
                     ${addOnClickListener('features')}>Other features</button>
                 <button class="pseudo-tab-button ${isActive('editor')}"
-                    ${addOnClickListener('editor')}>Simple editing</button>
+                    ${addOnClickListener('editor')}>Simple editor</button>
             </div>
         `;
     }

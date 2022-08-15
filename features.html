@@ -28,6 +28,9 @@
     <script src="components/pseudo-tab.js"
             type="text/javascript"
             defer></script>
+    <script src="components/call-to-action-button-stack.js"
+            type="text/javascript"
+            defer></script>
 </head>
 
 <body>
@@ -35,8 +38,13 @@
     <main>
         <div class="content">
             <div class="heading">
-                <h4 class="header header-name">Custom Charts for Jira</h4>
-                <h1 class="header header-title">Chart types & Features</h1>
+                <div class="header-left">
+                    <h4 class="header header-name">Custom Charts for Jira</h4>
+                    <h1 class="header header-title">Chart types & Features</h1>
+                </div>
+                <call-to-action-btn-stack class="header-right"
+                                          secondary-button="showcase">
+                </call-to-action-btn-stack>
             </div>
             <tabs-component active="features"></tabs-component>
             <!-- <h2>Other features</h2> -->

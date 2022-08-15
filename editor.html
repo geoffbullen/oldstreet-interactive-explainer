@@ -25,6 +25,12 @@
     <script src="components/editor-help.js"
             type="text/javascript"
             defer></script>
+    <script src="components/editor-help-tab.js"
+            type="text/javascript"
+            defer></script>
+    <script src="components/call-to-action-button-stack.js"
+            type="text/javascript"
+            defer></script>
 </head>
 
 <body>
@@ -32,17 +38,22 @@
     <main>
         <div class="content">
             <div class="heading">
-                <h4 class="header header-name">Custom Charts for Jira</h4>
-                <h1 class="header header-title">Simple Editor</h1>
+                <div class="header-left">
+                    <h4 class="header header-name">Custom Charts for Jira</h4>
+                    <h1 class="header header-title">Simple Editor</h1>
+                </div>
+                <call-to-action-btn-stack class="header-right"
+                                          secondary-button="features">
+                </call-to-action-btn-stack>
             </div>
             <tabs-component active="editor"></tabs-component>
             <!-- <p class="header header-description mt-20">The simplest, most powerful chart editing experience for Jira. -->
             </p>
             <div class="editor-container">
                 <iframe src="https://custom-charts-confluence.oss-playground.com/jira/rest/scriptrunner/latest/custom/customChartsJiraEditor?dashboardId=10300&dashboardItemId=10401"
-                        class="scaled-iframe"
+                        class="editor-iframe"
                         scrolling="no"
-                        style="width:calc(100% - 430px);height:580px"
+                        style="height:580px"
                         frameborder="0">
                 </iframe>
                 <editor-help></editor-help>
