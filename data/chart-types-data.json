@@ -37,7 +37,7 @@
         "name": "2D Stacked Bar Chart",
         "exampleUrl": "https://custom-charts-confluence.oss-playground.com/jira/rest/scriptrunner/latest/custom/customChartsJiraEditor?dashboardId=10300&dashboardItemId=10405",
         "description": "2D stacked bar charts are useful to compare many different groups and show the makeup of each group you're comparing.",
-        "backgroundColor": "#DEF2E6",
+        "backgroundColor": "#D7F7F9",
         "exampleLinks": [
             {
                 "name": "RAG",
@@ -54,7 +54,7 @@
         "name": "2D Line Chart",
         "exampleUrl": "https://custom-charts-confluence.oss-playground.com/jira/rest/scriptrunner/latest/custom/customChartsJiraEditor?dashboardId=10300&dashboardItemId=10406",
         "description": "Use a 2D Line chart to showing a trend across multiple series of data.  Such as tracking created versus resolved issues",
-        "backgroundColor": "#DEF2E6",
+        "backgroundColor": "#F0E5F4",
         "exampleLinks": [
             {
                 "name": "RAG",
@@ -71,7 +71,7 @@
         "name": "Funnel Chart",
         "exampleUrl": "https://custom-charts-confluence.oss-playground.com/jira/rest/scriptrunner/latest/custom/customChartsJiraEditor?dashboardId=10300&dashboardItemId=10407",
         "description": "A funnel chart helps you visualize a linear process that has sequential, connected stages.  Great for showing issue counts by kanban stage.",
-        "backgroundColor": "#DEF2E6",
+        "backgroundColor": "#F2F3F6",
         "exampleLinks": [
             {
                 "name": "RAG",
@@ -88,7 +88,7 @@
         "name": "1D Bar Chart",
         "exampleUrl": "https://custom-charts-confluence.oss-playground.com/jira/rest/scriptrunner/latest/custom/customChartsJiraEditor?dashboardId=10300&dashboardItemId=10408",
         "description": "Use a bar chart is used when you want to show a distribution of data accross categories. Use instead of a pie chart if your have several categories of data.",
-        "backgroundColor": "#DEF2E6",
+        "backgroundColor": "#F5E0D5",
         "exampleLinks": [
             {
                 "name": "RAG",
@@ -105,7 +105,7 @@
         "name": "2D table",
         "exampleUrl": "https://custom-charts-confluence.oss-playground.com/jira/rest/scriptrunner/latest/custom/customChartsJiraEditor?dashboardId=10300&dashboardItemId=10402",
         "description": "The 2D table gives a concise view to see data accross 2 categories. A nice use is to show number of bugs by component accross the different teams in your organisation.",
-        "backgroundColor": "#F5E0D5",
+        "backgroundColor": "#EFF3FF",
         "exampleLinks": [
             {
                 "name": "RAG",
