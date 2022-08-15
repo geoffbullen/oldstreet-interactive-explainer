@@ -1,14 +1,44 @@
 [
     {
-        "name": "ABC",
-        "videoUrl":"",
+        "name": "Choose segment colours",
+        "videoUrl": "",
         "description": "Use a pie chart for categorical data with more than 5 categories",
-        "backgroundColor" : "#EFF3FF"
+        "backgroundColor": "#EFF3FF"
     },
     {
-        "name": "ABC",
-        "videoUrl":"",
+        "name": "Rearrange segment order",
+        "videoUrl": "",
         "description": "Use a pie chart for categorical data with more than 5 categories",
-        "backgroundColor" : "red"
+        "backgroundColor": "#DEF2E6"
+    },
+    {
+        "name": "Combine or hide segments",
+        "videoUrl": "",
+        "description": "Use a pie chart for categorical data with more than 5 categories",
+        "backgroundColor": "#D7F7F9"
+    },
+    {
+        "name": "Export configuration",
+        "videoUrl": "",
+        "description": "Use a pie chart for categorical data with more than 5 categories",
+        "backgroundColor": "#F5E0D5"
+    },
+    {
+        "name": "Advanced JQL search",
+        "videoUrl": "",
+        "description": "Use a pie chart for categorical data with more than 5 categories",
+        "backgroundColor": "#F2F3F6"
+    },
+    {
+        "name": "Custom fields support",
+        "videoUrl": "",
+        "description": "Use a pie chart for categorical data with more than 5 categories",
+        "backgroundColor": "#D9E2ED"
+    },
+    {
+        "name": "Chart by time spent, story points & more",
+        "videoUrl": "",
+        "description": "Use a pie chart for categorical data with more than 5 categories",
+        "backgroundColor": "#F8E8F6"
     }
 ]

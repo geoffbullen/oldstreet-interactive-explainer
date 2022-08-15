@@ -9,11 +9,13 @@ class FeatureItem extends HTMLElement {
         this.innerHTML = `
           <div class="feature-item">
              <div class="feature-col">
-             <h3>${obj.name}</h3>
-             <p>${obj.description}</p>  
+                <div class="chart-type-details">
+                    <h3>${obj.name}</h3>
+                    <p>${obj.description}</p>  
+                </div>
              </div>
              <div class="feature-col">
-                <div class="media-container">
+                <div class="media-container" style="background-color:${obj.backgroundColor}">
                     <div class="feature-media" style="background-image:url(assets/feature-assets/Choose_segment_colors.png)"></div>
                 </div>
              </div>
