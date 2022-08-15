@@ -23,7 +23,8 @@ body {
 }
 
 .heading {
-    display: flex
+    display: flex;
+    margin-bottom: 20px;
 }
 
 .header {
@@ -69,21 +70,31 @@ body {
 }
 
 .blue-btn-primary {
+    all: unset;
     background-color: #192B80;
     color: white;
     width: 295px;
+    height: 45px;
+    text-align: center;
+    cursor: pointer;
 }
 
 .blue-btn-secondary {
+    all: unset;
     background-color: white;
     border: 1px solid #192B80;
     color: #192B80;
     width: 295px;
+    height: 45px;
+    text-align: center;
+    cursor: pointer;
 }
 
 .content {
     margin: 50px auto;
-    max-width: 1400px;
+    padding: 0 20px;
+    max-width: 1440px;
+
 }
 
 h2 {
@@ -177,14 +188,14 @@ button.pseudo-tab-active {
     border-bottom: 2px solid #E53041;
 }
 
-.iframe-container {
+/* .iframe-container {
     overflow: hidden;
     padding-top: 56.25%;
     position: relative;
     width: 600px;
     height: 400px;
     overflow: hidden;
-}
+} */
 
 
 .feature-media {
