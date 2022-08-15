@@ -2,7 +2,7 @@
     {
         "name": "Choose segment colours",
         "videoUrl": "assets/feature-assets/change_color.mov",
-        "videoScale": {
+        "mediaDimensions": {
             "width": 600,
             "height": 400
         },
@@ -12,7 +12,7 @@
     {
         "name": "Rearrange segment order",
         "videoUrl": "assets/feature-assets/change_order.mov",
-        "videoScale": {
+        "mediaDimensions": {
             "width": 600,
             "height": 400
         },
@@ -22,7 +22,7 @@
     {
         "name": "Combine segments",
         "videoUrl": "assets/feature-assets/combine_segments.mov",
-        "videoScale": {
+        "mediaDimensions": {
             "width": 600,
             "height": 400
         },
@@ -32,7 +32,7 @@
     {
         "name": "Export configuration",
         "videoUrl": "assets/feature-assets/import_export_config.mov",
-        "videoScale": {
+        "mediaDimensions": {
             "width": 800,
             "height": 400
         },
@@ -40,21 +40,31 @@
         "backgroundColor": "#F5E0D5"
     },
     {
-        "name": "Advanced JQL search",
-        "videoUrl": "",
+        "name": "Advanced JQL",
+        "imageUrl": "assets/feature-assets/custom_jql.jpg",
         "description": "Use a pie chart for categorical data with more than 5 categories",
-        "backgroundColor": "#F2F3F6"
+        "backgroundColor": "#F5E0D5"
     },
     {
-        "name": "Custom fields support",
-        "videoUrl": "",
+        "name": "Dynamic filtering capabilities with Simple Search",
+        "imageUrl": "assets/feature-assets/simple_search.png",
+        "mediaDimensions": {
+            "width": 611,
+            "height": 435
+        },
         "description": "Use a pie chart for categorical data with more than 5 categories",
-        "backgroundColor": "#D9E2ED"
+        "backgroundColor": "#F5E0D5"
     },
     {
-        "name": "Chart by time spent, story points & more",
-        "videoUrl": "",
+        "name": "Stacked and grouped bar charts",
+        "videoUrl": "assets/feature-assets/2d_grouped.mov",
+        "mediaDimensions": {
+            "width": 611,
+            "height": 435
+        },
         "description": "Use a pie chart for categorical data with more than 5 categories",
-        "backgroundColor": "#F8E8F6"
+        "backgroundColor": "#F5E0D5"
     }
+   
+   
 ]
