@@ -1,11 +1,19 @@
 class EditorHelpComponent extends HTMLElement {
 
-    index = 0;
+    index;
     featuresData = [];
     isMinimized = false;
 
     constructor() {
         super()
+        const queryString = window.location.search
+        const urlParams = new URLSearchParams(queryString)
+        let setTab = urlParams.get('helptab')
+        if (setTab) {
+            this.index = Number(setTab)
+        } else {
+            this.index = 0;
+        }
     }
 
     connectedCallback() {

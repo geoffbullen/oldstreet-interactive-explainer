@@ -6,7 +6,7 @@
             "width": 600,
             "height": 400
         },
-        "description": "It is as easy as pie (or line/funnel etc.) to color your charts how you want them.",
+        "description": "Use a pie chart for categorical data with more than 5 categories",
         "backgroundColor": "#EFF3FF"
     },
     {
@@ -16,7 +16,7 @@
             "width": 600,
             "height": 400
         },
-        "description": "Simply drag and drop to change the order or series data in your chart.",
+        "description": "Use a pie chart for categorical data with more than 5 categories",
         "backgroundColor": "#DEF2E6"
     },
     {
@@ -26,7 +26,7 @@
             "width": 600,
             "height": 400
         },
-        "description": "So useful! Combine series in seconds to tel the story you want with your chart.",
+        "description": "Use a pie chart for categorical data with more than 5 categories",
         "backgroundColor": "#D7F7F9"
     },
     {
@@ -36,13 +36,13 @@
             "width": 800,
             "height": 400
         },
-        "description": "Quickly import chart configurations from our examples, or to share with your team. Almost too easy!",
+        "description": "Use a pie chart for categorical data with more than 5 categories",
         "backgroundColor": "#F5E0D5"
     },
     {
         "name": "Advanced JQL",
         "imageUrl": "assets/feature-assets/custom_jql.jpg",
-        "description": "Charting with no limits. Use custom JQL to chart anything you need to.",
+        "description": "Use a pie chart for categorical data with more than 5 categories",
         "backgroundColor": "#F5E0D5"
     },
     {
@@ -52,7 +52,7 @@
             "width": 611,
             "height": 435
         },
-        "description": "allows dashboard viewers to dynamically filter Custom Charts reports based off of specific Jira fields and JQL",
+        "description": "Use a pie chart for categorical data with more than 5 categories",
         "backgroundColor": "#F5E0D5"
     },
     {
@@ -62,9 +62,7 @@
             "width": 611,
             "height": 435
         },
-        "description": "Sometimes one dimension isn't enough. Take your dashboard to the the next level with stacked and grouped charts.",
+        "description": "Use a pie chart for categorical data with more than 5 categories",
         "backgroundColor": "#F5E0D5"
     }
-   
-   
 ]
