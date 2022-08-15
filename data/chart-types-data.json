@@ -2,7 +2,7 @@
     {
         "name": "Pie chart",
         "exampleUrl": "https://custom-charts-confluence.oss-playground.com/jira/rest/scriptrunner/latest/custom/customChartsJiraEditor?dashboardId=10300&dashboardItemId=10401",
-        "description": "Use a pie chart for categorical data with more than 5 categories",
+        "description": "Use a pie chart for categorical data with (usually) fewer than 5 categories",
         "backgroundColor": "#EFF3FF",
         "exampleLinks": [
             {
@@ -19,7 +19,7 @@
     {
         "name": "Line Chart",
         "exampleUrl": "https://custom-charts-confluence.oss-playground.com/jira/rest/scriptrunner/latest/custom/customChartsJiraEditor?dashboardId=10300&dashboardItemId=10404",
-        "description": "lorem ipsum blah blah blah",
+        "description": "Line charts are great for showing trends and highlight anomolies. Such as number of incidents over time",
         "backgroundColor": "#DEF2E6",
         "exampleLinks": [
             {
@@ -36,7 +36,7 @@
     {
         "name": "2D Stacked Bar Chart",
         "exampleUrl": "https://custom-charts-confluence.oss-playground.com/jira/rest/scriptrunner/latest/custom/customChartsJiraEditor?dashboardId=10300&dashboardItemId=10405",
-        "description": "lorem ipsum blah blah blah",
+        "description": "2D stacked bar charts are useful to compare many different groups and show the makeup of each group you're comparing.",
         "backgroundColor": "#DEF2E6",
         "exampleLinks": [
             {
@@ -53,7 +53,7 @@
     {
         "name": "2D Line Chart",
         "exampleUrl": "https://custom-charts-confluence.oss-playground.com/jira/rest/scriptrunner/latest/custom/customChartsJiraEditor?dashboardId=10300&dashboardItemId=10406",
-        "description": "lorem ipsum blah blah blah",
+        "description": "Use a 2D Line chart to showing a trend across multiple series of data.  Such as tracking created versus resolved issues",
         "backgroundColor": "#DEF2E6",
         "exampleLinks": [
             {
@@ -70,7 +70,7 @@
     {
         "name": "Funnel Chart",
         "exampleUrl": "https://custom-charts-confluence.oss-playground.com/jira/rest/scriptrunner/latest/custom/customChartsJiraEditor?dashboardId=10300&dashboardItemId=10407",
-        "description": "lorem ipsum blah blah blah",
+        "description": "A funnel chart helps you visualize a linear process that has sequential, connected stages.  Great for showing issue counts by kanban stage.",
         "backgroundColor": "#DEF2E6",
         "exampleLinks": [
             {
@@ -87,7 +87,7 @@
     {
         "name": "1D Bar Chart",
         "exampleUrl": "https://custom-charts-confluence.oss-playground.com/jira/rest/scriptrunner/latest/custom/customChartsJiraEditor?dashboardId=10300&dashboardItemId=10408",
-        "description": "lorem ipsum blah blah blah",
+        "description": "Use a bar chart is used when you want to show a distribution of data accross categories. Use instead of a pie chart if your have several categories of data.",
         "backgroundColor": "#DEF2E6",
         "exampleLinks": [
             {
@@ -104,7 +104,7 @@
     {
         "name": "2D table",
         "exampleUrl": "https://custom-charts-confluence.oss-playground.com/jira/rest/scriptrunner/latest/custom/customChartsJiraEditor?dashboardId=10300&dashboardItemId=10402",
-        "description": "2D table",
+        "description": "The 2D table gives a concise view to see data accross 2 categories. A nice use is to show number of bugs by component accross the different teams in your organisation.",
         "backgroundColor": "#F5E0D5",
         "exampleLinks": [
             {
@@ -121,7 +121,7 @@
     {
         "name": "1D table",
         "exampleUrl": "https://custom-charts-confluence.oss-playground.com/jira/rest/scriptrunner/latest/custom/customChartsJiraEditor?dashboardId=10300&dashboardItemId=10403",
-        "description": "lorem ipsum blah blah blah",
+        "description": "A table gives a concise view to see detailed, actionable stats. A nice use is to show workload accross your team.",
         "backgroundColor": "#DEF2E6",
         "exampleLinks": [
             {
