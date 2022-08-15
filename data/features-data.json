@@ -1,7 +1,11 @@
 [
     {
         "name": "Choose segment colours",
-        "videoUrl": "",
+        "videoUrl": "assets/feature-assets/change_color.mov",
+        "videoScale": {
+            "width": 600,
+            "height": 400
+        },
         "description": "Use a pie chart for categorical data with more than 5 categories",
         "backgroundColor": "#EFF3FF"
     },

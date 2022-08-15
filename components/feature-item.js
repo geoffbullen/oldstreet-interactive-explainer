@@ -16,7 +16,9 @@ class FeatureItem extends HTMLElement {
              </div>
              <div class="feature-col">
                 <div class="media-container" style="background-color:${obj.backgroundColor}">
-                    <div class="feature-media" style="background-image:url(assets/feature-assets/Choose_segment_colors.png)"></div>
+                    <video class="feature-media" muted loop playsinline autoplay preload="none" style="width:${obj.videoScale?.width}px;height:${obj.videoScale?.height}px">
+                        <source src="${obj.videoUrl}" type="video/mp4">
+                    </video>
                 </div>
              </div>
           </div>
