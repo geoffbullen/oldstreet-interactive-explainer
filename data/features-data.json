@@ -11,13 +11,21 @@
     },
     {
         "name": "Rearrange segment order",
-        "videoUrl": "",
+        "videoUrl": "assets/feature-assets/change_order.mov",
+        "videoScale": {
+            "width": 600,
+            "height": 400
+        },
         "description": "Use a pie chart for categorical data with more than 5 categories",
         "backgroundColor": "#DEF2E6"
     },
     {
-        "name": "Combine or hide segments",
-        "videoUrl": "",
+        "name": "Combine segments",
+        "videoUrl": "assets/feature-assets/combine_segments.mov",
+        "videoScale": {
+            "width": 600,
+            "height": 400
+        },
         "description": "Use a pie chart for categorical data with more than 5 categories",
         "backgroundColor": "#D7F7F9"
     },
