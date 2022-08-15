@@ -4,5 +4,11 @@
         "videoUrl":"",
         "description": "Use a pie chart for categorical data with more than 5 categories",
         "backgroundColor" : "#EFF3FF"
+    },
+    {
+        "name": "ABC",
+        "videoUrl":"",
+        "description": "Use a pie chart for categorical data with more than 5 categories",
+        "backgroundColor" : "red"
     }
 ]

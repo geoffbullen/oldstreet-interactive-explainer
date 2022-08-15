@@ -5,11 +5,12 @@ class FeatureItem extends HTMLElement {
     }
 
     connectedCallback() {
+        const obj = this.getObject();
         this.innerHTML = `
           <div class="feature-item">
              <div class="feature-col">
-                <h3>Choose segment colors</h3>
-                <p>Blah blah blah</p>
+             <h3>${obj.name}</h3>
+             <p>${obj.description}</p>  
              </div>
              <div class="feature-col">
                 <div class="media-container">
@@ -18,6 +19,15 @@ class FeatureItem extends HTMLElement {
              </div>
           </div>
         `;
+    }
+
+    getObject() {
+        const objectStr = this.getAttribute("data-object");
+        let object;
+        try { object = JSON.parse(objectStr) }
+        catch (e) {/*swallow*/ }
+        if (!object) return {};
+        return object;
     }
 }
 customElements.define('feature-item-component', FeatureItem);
