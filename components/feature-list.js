@@ -25,7 +25,7 @@ class FeatureList extends HTMLElement {
             let htmlStr = '';
             features.forEach((f, idx) => {
                 let object = JSON.stringify(f);
-                const str = `<feature-item-component data-object='${object}'></feature-item-component>`;
+                const str = `<feature-item-component data-index='${idx}' data-object='${object}'></feature-item-component>`;
                 htmlStr += str;
             });
             this.innerHTML = htmlStr;
