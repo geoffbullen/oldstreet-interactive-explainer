@@ -7,7 +7,8 @@
             "height": 400
         },
         "description": "Use a pie chart for categorical data with more than 5 categories",
-        "backgroundColor": "#EFF3FF"
+        "backgroundColor": "#EFF3FF",
+        "editorTabUrl": "/editor?helptab=0"
     },
     {
         "name": "Rearrange segment order",
@@ -17,7 +18,8 @@
             "height": 400
         },
         "description": "Use a pie chart for categorical data with more than 5 categories",
-        "backgroundColor": "#DEF2E6"
+        "backgroundColor": "#DEF2E6",
+        "editorTabUrl": "/editor?helptab=1"
     },
     {
         "name": "Combine segments",
@@ -27,7 +29,8 @@
             "height": 400
         },
         "description": "Use a pie chart for categorical data with more than 5 categories",
-        "backgroundColor": "#D7F7F9"
+        "backgroundColor": "#D7F7F9",
+        "editorTabUrl": "/editor?helptab=2"
     },
     {
         "name": "Export configuration",
@@ -37,13 +40,15 @@
             "height": 400
         },
         "description": "Use a pie chart for categorical data with more than 5 categories",
-        "backgroundColor": "#F5E0D5"
+        "backgroundColor": "#F5E0D5",
+        "editorTabUrl": "/editor?helptab=3"
     },
     {
         "name": "Advanced JQL",
         "imageUrl": "assets/feature-assets/custom_jql.jpg",
         "description": "Use a pie chart for categorical data with more than 5 categories",
-        "backgroundColor": "#F5E0D5"
+        "backgroundColor": "#F5E0D5",
+        "editorTabUrl": "/editor?helptab=4"
     },
     {
         "name": "Dynamic filtering capabilities with Simple Search",
@@ -53,7 +58,8 @@
             "height": 435
         },
         "description": "Use a pie chart for categorical data with more than 5 categories",
-        "backgroundColor": "#F5E0D5"
+        "backgroundColor": "#F5E0D5",
+        "editorTabUrl": "/editor?helptab=5"
     },
     {
         "name": "Stacked and grouped bar charts",
@@ -63,8 +69,7 @@
             "height": 435
         },
         "description": "Use a pie chart for categorical data with more than 5 categories",
-        "backgroundColor": "#F5E0D5"
+        "backgroundColor": "#F5E0D5",
+        "editorTabUrl": "/editor?helptab=6"
     }
-   
-   
 ]

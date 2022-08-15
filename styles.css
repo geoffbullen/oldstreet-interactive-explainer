@@ -41,7 +41,7 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 20px;
+    gap: 12px;
     margin: 0 100px;
 }
 
@@ -82,8 +82,9 @@ body {
 }
 
 .content {
-    margin: 50px;
-    margin-left: 80px;
+    margin: 50px auto;
+
+    max-width: 1400px;
 }
 
 h2 {
@@ -313,7 +314,7 @@ button.pseudo-tab-active {
 
 .editor-iframe {
     width: calc(100% - 430px);
-    /* max-width: 1400px; */
+    max-width: 1000px;
 }
 
 
@@ -377,7 +378,7 @@ button.pseudo-tab-active {
     display: flex;
     align-items: center;
     background: #192B80;
-    padding: 20px;
+    padding: 10px 20px;
     gap: 10px;
 }
 
