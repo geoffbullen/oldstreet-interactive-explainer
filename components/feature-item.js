@@ -16,9 +16,7 @@ class FeatureItem extends HTMLElement {
              </div>
              <div class="feature-col">
                 <div class="media-container" style="background-color:${obj.backgroundColor}">
-                    <video class="feature-media" muted loop playsinline autoplay preload="none" style="width:${obj.videoScale?.width ?? 600}px;height:${obj.videoScale?.height ?? 300}px">
-                        <source src="${obj.videoUrl}" type="video/mp4">
-                    </video>
+                    ${this.getMediaMarkup(obj)}
                 </div>
              </div>
           </div>
@@ -39,6 +37,19 @@ class FeatureItem extends HTMLElement {
         catch (e) {/*swallow*/ }
         if (!object) return {};
         return object;
+    }
+
+    getMediaMarkup(obj) {
+        if (obj.videoUrl && obj.videoUrl.length > 8) {
+            return `<video class="feature-media" muted loop playsinline autoplay preload="none" style="width:${obj.mediaDimensions?.width ?? 600}px;height:${obj.mediaDimensions?.height ?? 300}px">
+                        <source src="${obj.videoUrl}" type="video/mp4">
+                    </video>`
+        }
+        else return `
+            <img src="${obj.imageUrl}" style="width:${obj.mediaDimensions?.width ?? 600}px;height:${obj.mediaDimensions?.height ?? 300}px"></img>
+            `
+
+
     }
 }
 customElements.define('feature-item-component', FeatureItem);
