@@ -160,8 +160,8 @@ button.pseudo-tab-active {
 .feature-media {
     background-repeat: no-repeat;
     background-size: auto;
-    height: 220px;
-    width: 330px;
+    /* height: 220px;
+    width: 330px; */
 }
 
 .feature-item {
@@ -274,3 +274,19 @@ button.pseudo-tab-active {
 .iframe-container.iframe7 {
     margin-top: 150px;
 }
+
+.editor-container {
+    display: flex;
+}
+
+.editor-help-container {
+    width: 425px;
+    height: 600px;
+    background-color: #F2F3F6;
+}
+
+
+/* bootstrap-style classes */
+/* .mt-20 {
+    margin-top: 20px;
+} */

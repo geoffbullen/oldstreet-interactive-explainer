@@ -31,7 +31,11 @@
     },
     {
         "name": "Export configuration",
-        "videoUrl": "",
+        "videoUrl": "assets/feature-assets/import_export_config.mov",
+        "videoScale": {
+            "width": 800,
+            "height": 400
+        },
         "description": "Use a pie chart for categorical data with more than 5 categories",
         "backgroundColor": "#F5E0D5"
     },

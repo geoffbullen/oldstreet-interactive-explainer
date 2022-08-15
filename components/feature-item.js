@@ -4,7 +4,7 @@ class FeatureItem extends HTMLElement {
         super();
     }
 
-    connectedCallback() {
+    async connectedCallback() {
         const obj = this.getObject();
         this.innerHTML = `
           <div class="feature-item">
@@ -23,6 +23,13 @@ class FeatureItem extends HTMLElement {
              </div>
           </div>
         `;
+
+        setTimeout(() => {
+            let videos = [...document.getElementsByClassName('feature-media')]
+            for (let video of videos) {
+                video.playbackRate = 0.5
+            }
+        }, 1000)
     }
 
     getObject() {
