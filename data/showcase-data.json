@@ -22,12 +22,20 @@
             {
                 "name": "Agile Release dashboard",
                 "thumbnail": "./data/showcase-thumbnails/example1.webp",
-                "dashboardUrl": "jira/secure/Dashboard.jspa"
+                "dashboardUrl": "jira/secure/Dashboard.jspa",
+                "featuresUsed": [
+                    "Pie Chart",
+                    "1D Bar Chart"
+                ]
             },
             {
                 "name": "SAFe Progress dashboard",
                 "thumbnail": "./data/showcase-thumbnails/example2.webp",
-                "dashboardUrl": "jira/secure/Dashboard.jspa"
+                "dashboardUrl": "jira/secure/Dashboard.jspa",
+                "featuresUsed": [
+                    "Pie Chart",
+                    "1D Bar Chart"
+                ]
             }
         ]
     },
@@ -37,12 +45,20 @@
             {
                 "name": "Service management dashboard",
                 "thumbnail": "./data/showcase-thumbnails/example3.webp",
-                "dashboardUrl": "jira/secure/Dashboard.jspa"
+                "dashboardUrl": "jira/secure/Dashboard.jspa",
+                "featuresUsed": [
+                    "Pie Chart",
+                    "1D Bar Chart"
+                ]
             },
             {
                 "name": "Service dashboard",
                 "thumbnail": "./data/showcase-thumbnails/example7.webp",
-                "dashboardUrl": "jira/secure/Dashboard.jspa"
+                "dashboardUrl": "jira/secure/Dashboard.jspa",
+                "featuresUsed": [
+                    "Pie Chart",
+                    "1D Bar Chart"
+                ]
             }
         ]
     },
@@ -52,12 +68,20 @@
             {
                 "name": "Marketing daily dashboard",
                 "thumbnail": "./data/showcase-thumbnails/example5.webp",
-                "dashboardUrl": "jira/secure/Dashboard.jspa"
+                "dashboardUrl": "jira/secure/Dashboard.jspa",
+                "featuresUsed": [
+                    "Pie Chart",
+                    "1D Bar Chart"
+                ]
             },
             {
                 "name": "Marketing performance",
                 "thumbnail": "./data/showcase-thumbnails/example6.webp",
-                "dashboardUrl": "jira/secure/Dashboard.jspa"
+                "dashboardUrl": "jira/secure/Dashboard.jspa",
+                "featuresUsed": [
+                    "Pie Chart",
+                    "1D Bar Chart"
+                ]
             }
         ]
     }
